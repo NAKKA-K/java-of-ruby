@@ -37,10 +37,6 @@ class System
     end
 end
 
-def new_(class_obj)
-    Scan.new(class_obj)
-end
-
 class Scan
     def initialize(fp)
         @fp = fp
@@ -51,6 +47,10 @@ class Scan
     end
 end
 
-def Scanner(obj)
-    obj
+def Scanner(fp)
+    fp
+end
+
+def new_(class_obj)
+    Scan.new(class_obj)
 end
