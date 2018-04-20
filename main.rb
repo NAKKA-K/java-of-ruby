@@ -1,6 +1,9 @@
 require './system'
 
 static void main(ARGV){
-    System.out.println('Hello, world!')
+    scan = new_ Scanner(System.in)
+    System.out.printf('入力:');
+    line = scan.nextLine()
+    System.out.println('Hello, world!');
 }
 
